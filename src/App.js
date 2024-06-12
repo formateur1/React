@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Event1 from './components/Event1';
+import Event2 from './components/Event2';
+import Event3 from './components/Event3';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Event1 />
+
+      <Event2 />
+
+      <Event3 />
     </div>
   );
 }
