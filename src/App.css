@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.Form {
+  padding: 8px;
+  border: solid 1px grey;
+  border-radius: 4px;
+}
+
+span, input, button {
+  margin: 0 8px;
+}
+
+.age--mineur {
+  color: red !important;
+}
